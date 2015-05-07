@@ -1,0 +1,29 @@
+.component-div{
+	background-color: #770000;
+	height: 100%;
+	width: 100%;
+}
+
+table {
+	height: 100%;
+	width: 100%;
+	top: 30px;
+	bottom: 0;
+	left: 0;
+	right:0;
+	position: absolute;
+	clear: both;
+	border-collapse: collapse;
+}
+#main-div, td, tr, table, tbody, .component-div{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border: none;
+}
+button {
+	top: 0;
+	padding: 0;
+	margin: 0;
+
+}
