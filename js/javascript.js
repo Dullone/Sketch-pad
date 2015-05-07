@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 function MakeGrid(size){
 	console.log("MakeGrid Called with: " + size);
-	var gridSizeLimit = 2000;
+	var gridSizeLimit = 100;
 	if(typeof Number(size) != 'number')
 	{
 		console.log("Error, grid size not number: " + size);
